@@ -1,0 +1,4 @@
+# This file, when executed, will install the following helpful tools/application on your Linux system:
+#sudo, curl, ffmpeg.
+
+#Having Git installed is a pre-requisite. 
