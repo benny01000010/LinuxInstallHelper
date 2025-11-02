@@ -4,6 +4,7 @@
 #sudo, curl, ffmpeg, git, nmap, Ollama and Docker.
 
 #Please run this script as root, or use "sudo" if you've already installed it. 
+# If you have already installed sudo on your system, make sure to run sudo bash ./installscript in order to prevent errors.
 
 AUTO_YES=false
 if [[ "$1" == "--yes" || "$1" == "-y" ]]; then
