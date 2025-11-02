@@ -34,6 +34,9 @@ ask_install() {
     fi
 }
 
+echo "Installation of all packages complete."
+echo "Courtesy of @benny01000010 on GitHub."
+
 # Apt packages
 ask_install "sudo" "apt install sudo -y"
 ask_install "curl" "apt install curl -y"
