@@ -1,7 +1,7 @@
 # This file, when executed, will promt you to install the following helpful tools/application on your Linux system:
 #sudo, curl, ffmpeg, git, nmap, Ollama and Docker.
 
-#Please run this script as root. 
+#Please run this script as root, or use "sudo" if you've already installed it. 
 
 #!/bin/bash
 
@@ -36,6 +36,9 @@ ask_install "curl" "apt install curl -y"
 ask_install "ffmpeg" "apt install ffmpeg -y"
 ask_install "git" "apt install git -y"
 ask_install "nmap" "apt install nmap -y"
+ask_install "ufw" "apt install ufw -y"
+ask_install "wget" "apt-get install wget -y"
+ask_install "vim" "apt install vim -y"
 
 # Docker
 ask_install "Docker" "curl -fsSL https://get.docker.com | sh"
