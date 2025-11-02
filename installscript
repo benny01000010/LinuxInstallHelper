@@ -1,9 +1,9 @@
+#!/bin/bash
+
 # This file, when executed, will promt you to install the following helpful tools/application on your Linux system:
 #sudo, curl, ffmpeg, git, nmap, Ollama and Docker.
 
 #Please run this script as root, or use "sudo" if you've already installed it. 
-
-#!/bin/bash
 
 AUTO_YES=false
 if [[ "$1" == "--yes" || "$1" == "-y" ]]; then
